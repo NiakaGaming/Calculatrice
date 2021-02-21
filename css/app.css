@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: "Calculator", serif;
+    /* background-color: coral; */
+}
+@font-face {
+    font-family: "Calculator";
+    src: url("../font/Calculator.ttf");
+}
+section{
+    margin-left: 25%;
+}
+.result{
+    width: 40vw;
+    height: 150px;
+    border: 8px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.resulat{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0;
+    /* overflow-x: scroll; */
+}
+.temp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 0;
+    /* overflow-x: scroll;
+    overflow-y: auto; */
+}
+
+.container{
+    width: 40vw;
+    border: 2px solid black;
+    padding: 25px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.btn{
+    border: 2px solid black;
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:hover.btn{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+:active.btn{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+/* https://www.gavsblog.com/blog/only-hide-css-overflow-on-a-single-x-or-y-axis-or-ignore-it */
+
